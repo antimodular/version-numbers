@@ -7,10 +7,10 @@ The result will look something like:
 ```
 count  - date - commit hash
 
-##openframeworks
+## openframeworks
 The openframeworks example check the last git commit in it's folder. If no git repository is present it uses the last stored version number in the gui_main.xml file.
 
-##arduino
+## arduino
 The arduino example has a create_git_versionNum.sh shell script. The shell script can be placed in the sketch's folder and then be run from the terminal.
 
 Personally i use sourceTree to manage my git repos. There are two options to run this script
