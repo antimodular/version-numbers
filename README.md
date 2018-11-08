@@ -15,8 +15,8 @@ The arduino example has a create_git_versionNum.sh shell script. The shell scrip
 
 Personally i use sourceTree to manage my git repos. There are two options to run this script
 1. I place the create_git_versionNum.sh script in a general location, and create a "cutsom action" with sourceTree. You then have to manaully run this script via Actions->Custom Actions-> select your script
-
 2. Use this [post-commit script](https://github.com/antimodular/version-numbers/blob/master/versionNum_arduino/git/hooks/post-commit). It need to have this path myRepo/.git/hooks/post-commit
+
 
 The script writes the version number in to build_version.h, which get's called from the arduino sketch.
 
