@@ -20,4 +20,4 @@ Personally i use sourceTree to manage my git repos. There are two options to run
 
 The script writes the version number in to build_version.h, which get's called from the arduino sketch.
 
-![](https://github.com/antimodular/version-numbers/images/hook.png)
+![](https://github.com/antimodular/version-numbers/blob/master/images/hook.png)
